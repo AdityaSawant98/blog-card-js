@@ -57,9 +57,9 @@ body {
 	margin: 16px;
 }
 
-.card-content > .card-content-button {
+.card-content > .card-content-badge {
 	background-color: #f0fdf4;
-	font-weight: 500;
+	font-weight: 400;
 	color: #15803d;
 	border: 1px solid #bbf7d0;
 	border-radius: 9999px;
@@ -70,14 +70,13 @@ body {
 
 .card-content > .card-content-heading {
 	font-weight: 600;
-	margin-top: 8px;
-	margin-bottom: 12px;
+	margin-top: 10px;
 	line-height: 28px;
 	font-size: 18px;
 }
 
 .card-content > .card-content-desc {
-	font-weight: 400;
+	font-weight: 500;
 	margin-bottom: 24px;
 	line-height: 24px;
 	font-size: 16px;
@@ -90,11 +89,14 @@ body {
 	color: #4338ca;
 	line-height: 24px;
 	font-size: 16px;
+	text-decoration: none;
 }
 
 .card-content-icon {
-	display: inline-block;
+	margin-left: 6px;
+}
+
+.card-content-icon > svg {
 	vertical-align: middle;
 	color: #6366f1;
-	margin-left: 6px;
 }

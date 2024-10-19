@@ -10,7 +10,7 @@ blogCard.innerHTML = `
             alt='card image'
         />
         <div class="card-content">
-            <span class="card-content-button">Interior</span>
+            <span class="card-content-badge">Interior</span>
             
             <p class="card-content-heading">Top 5 Living Room Inspirations</p>
 
