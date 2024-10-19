@@ -19,9 +19,7 @@ body {
 .container {
 	display: flex;
 	justify-content: center;
-	position: relative;
 	min-height: 812px;
-	top: 120px;
 	background-color: #f0fdf4;
 }
 
@@ -38,6 +36,8 @@ body {
 }
 
 .card-container {
+	position: relative;
+	top: 120px;
 	display: flex;
 	flex-direction: column;
 	gap: 8px;

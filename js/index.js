@@ -6,7 +6,7 @@ const blogCard = document.querySelector('#blog-card');
 blogCard.innerHTML = `
     <div class="card-container">
         <img class="card-picture"
-            src='./../img/spacejoy-YqFz7UMm8qE-unsplash.jpg'
+            src='/img/spacejoy-YqFz7UMm8qE-unsplash.jpg'
             alt='card image'
         />
         <div class="card-content">
